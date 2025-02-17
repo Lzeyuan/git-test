@@ -8,4 +8,14 @@ project(hello_world)
 set(CMAKE_C_STANDARD 11)
 
 # 指定要编译的源文件
-add_executable(hello_world main.c)
+add_library(
+    hello_world 
+    SHARED
+    hello_world.c
+)
+
+target_include_directories(
+    hello_world
+    INTERFACE
+    ./
+)
