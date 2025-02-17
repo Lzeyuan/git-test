@@ -1,3 +1,0 @@
-/home/leza/projects/git-test/build/CMakeFiles/hello_world.dir
-/home/leza/projects/git-test/build/CMakeFiles/edit_cache.dir
-/home/leza/projects/git-test/build/CMakeFiles/rebuild_cache.dir
